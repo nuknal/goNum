@@ -50,7 +50,7 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // IntegralCompositeNewtonCotes 1-8级复化Newton-Cotes求积分公式

@@ -41,7 +41,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // NLEs_SeidelIterate 多元非线性方程组Seidel迭代

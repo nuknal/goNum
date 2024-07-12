@@ -40,7 +40,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // FittingTriPoly 基于傅立叶（Fourier）级数的三角多项式拟合

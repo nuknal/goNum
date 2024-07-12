@@ -54,7 +54,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // IntegralRumberg Rumberg(龙贝格)求积分公式

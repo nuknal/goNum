@@ -30,7 +30,7 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // RadixSort 基数排序法

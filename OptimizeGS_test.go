@@ -38,7 +38,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // OptimizeGS 黄金分割法(Golden Section)求单峰单自变量极小值

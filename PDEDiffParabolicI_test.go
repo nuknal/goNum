@@ -55,7 +55,7 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // PDEDiffParabolicI 求解抛物型偏微分方程的差分解法（隐式）

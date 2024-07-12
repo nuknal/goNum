@@ -26,7 +26,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // LLT_Decompose 求对称正定矩阵的平方根分解法

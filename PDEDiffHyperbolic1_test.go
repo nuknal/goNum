@@ -48,7 +48,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // PDEDiffHyperbolic1 求解双曲型偏微分方程的差分解法（第一种差分格式）

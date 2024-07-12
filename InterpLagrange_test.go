@@ -40,7 +40,7 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // InterpLagrange 求解n次拉格朗日Lagrange插值法拟合n+1个数据点

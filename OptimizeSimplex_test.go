@@ -42,7 +42,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // OptimizeSimplex Nelder-Mead单纯形法求解多自变量函数极小值

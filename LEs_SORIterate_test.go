@@ -34,7 +34,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // LEs_SORIterate 解n阶线性方程组的SOR(逐次超松弛, successive over relaxation)迭代法

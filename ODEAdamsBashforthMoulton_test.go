@@ -41,7 +41,7 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // ODEAdamsBashforthMoulton Adams-Bashforth-Moulton预估校正方法

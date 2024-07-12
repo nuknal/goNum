@@ -33,7 +33,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // LEs_SeidelIterate 解n阶线性方程组的Seidel迭代法

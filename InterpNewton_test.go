@@ -34,10 +34,10 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
-//求差商
+// 求差商
 func diffq_InterpNewton(A goNum.Matrix, k int) float64 {
 	var sol float64
 	for j := 0; j <= k; j++ {

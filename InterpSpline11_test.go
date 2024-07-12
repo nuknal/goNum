@@ -56,7 +56,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // InterpSpline11 用节点处的一阶导数表示的三次样条插值函数, 一阶导数边界条件

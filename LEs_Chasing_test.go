@@ -25,7 +25,7 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // LEs_Chasing 追赶法求解严格对角占优的三对角矩阵

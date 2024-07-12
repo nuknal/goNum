@@ -52,7 +52,7 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // ODEDiff 差分方法求解常微分方程

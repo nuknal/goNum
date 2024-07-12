@@ -34,10 +34,10 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
-//k阶差分
+// k阶差分
 func difff_InterpNewtonForward(A goNum.Matrix, k int) float64 {
 	sol := A.GetFromMatrix(k, 1) //yk
 	for s := 1; s <= k; s++ {

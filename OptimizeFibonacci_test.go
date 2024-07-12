@@ -39,7 +39,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // OptimizeFibonacci Fibonacci搜索法求单峰单自变量极小值

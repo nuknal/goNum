@@ -44,7 +44,7 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // PDEDiffEllipticalP5 求解椭圆型偏微分方程（Poisson）的差分解法（五点格式）

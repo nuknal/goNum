@@ -38,10 +38,10 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
-//计算分母
+// 计算分母
 func omega1_InterpLagrangeFunc(A goNum.Matrix, k, n int) float64 {
 	var sol float64 = 1.0
 	for i := 0; i <= n; i++ {
@@ -52,7 +52,7 @@ func omega1_InterpLagrangeFunc(A goNum.Matrix, k, n int) float64 {
 	return sol
 }
 
-//计算分子并由高阶到低阶排序
+// 计算分子并由高阶到低阶排序
 func omega0_InterpLagrangeFunc(A goNum.Matrix, k, n int) goNum.Matrix {
 	B := goNum.ZeroMatrix(n+1, 1)
 	//第零阶 x-x0

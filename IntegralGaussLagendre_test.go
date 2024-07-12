@@ -36,7 +36,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // IntegralGaussLagendre 不超过8次的Gauss-Lagendre求积分公式

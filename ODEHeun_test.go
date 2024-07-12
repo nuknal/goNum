@@ -39,7 +39,7 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // ODEHeun 常微分方程的Heun解法

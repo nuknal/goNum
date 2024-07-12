@@ -42,10 +42,10 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
-//求解lj(x)
+// 求解lj(x)
 func ljx_InterpHermiteFunc(A goNum.Matrix, j int) goNum.Matrix {
 	Bljx := goNum.ZeroMatrix(A.Rows, 1) //出去j，加常数项总共n+1
 	xj := A.GetFromMatrix(j, 0)
@@ -103,7 +103,7 @@ func ljx_InterpHermiteFunc(A goNum.Matrix, j int) goNum.Matrix {
 	return Bljx
 }
 
-//求解ljx^2
+// 求解ljx^2
 func ljx2_InterpHermiteFunc(A goNum.Matrix, j int) goNum.Matrix {
 	ljx := ljx_InterpHermiteFunc(A, j)      //n+1 rows
 	BA := goNum.ZeroMatrix(2*ljx.Rows-1, 1) //2n+1 rows
@@ -115,7 +115,7 @@ func ljx2_InterpHermiteFunc(A goNum.Matrix, j int) goNum.Matrix {
 	return BA
 }
 
-//求解alphajx和betajx，合并是为了减少对ljx2_InterpHermiteFunc的调用
+// 求解alphajx和betajx，合并是为了减少对ljx2_InterpHermiteFunc的调用
 func alphabetajx_InterpHermiteFunc(A goNum.Matrix, j int) (goNum.Matrix, goNum.Matrix) {
 	var temp0 float64
 	ljx2 := ljx2_InterpHermiteFunc(A, j)        //2n+1 rows

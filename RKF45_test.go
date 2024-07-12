@@ -32,7 +32,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // RKF45 四级五阶变步长Runge-Kutta法求解常微分方程组

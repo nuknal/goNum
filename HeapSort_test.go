@@ -27,7 +27,7 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // heapSort_maxHeap 建立最大顶堆

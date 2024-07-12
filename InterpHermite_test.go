@@ -38,10 +38,10 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
-//求解lj(xq)
+// 求解lj(xq)
 func ljxq_InterpHermite(A goNum.Matrix, xq float64, j int) float64 {
 	sol := 1.0
 	xj := A.GetFromMatrix(j, 0)
@@ -54,7 +54,7 @@ func ljxq_InterpHermite(A goNum.Matrix, xq float64, j int) float64 {
 	return sol
 }
 
-//求解alplhaj(xq)
+// 求解alplhaj(xq)
 func alphajxq_InterpHermite(A goNum.Matrix, xq float64, j int) float64 {
 	var temp0 float64
 	xj := A.GetFromMatrix(j, 0)
@@ -67,7 +67,7 @@ func alphajxq_InterpHermite(A goNum.Matrix, xq float64, j int) float64 {
 	return (1.0 - 2.0*(xq-xj)*temp0) * temp1 * temp1
 }
 
-//求解betaj(xq)
+// 求解betaj(xq)
 func betajxq_InterpHermite(A goNum.Matrix, xq float64, j int) float64 {
 	xj := A.GetFromMatrix(j, 0)
 	temp0 := ljxq_InterpHermite(A, xq, j)

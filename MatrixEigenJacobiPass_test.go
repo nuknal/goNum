@@ -28,7 +28,7 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // MatrixEigenJacobiPass 求解n阶对称矩阵A的全部特征值及其特征向量，雅可比过关法

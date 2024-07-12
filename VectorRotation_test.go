@@ -26,7 +26,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // VectorRotation 向量在三维空间的旋转

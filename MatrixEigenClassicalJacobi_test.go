@@ -29,10 +29,10 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
-//判断矩阵是否对称
+// 判断矩阵是否对称
 func isSymMatrix_MatrixEigenClassicalJacobi(A goNum.Matrix) bool {
 	//是否方阵
 	if A.Columns != A.Rows {
@@ -53,7 +53,7 @@ func isSymMatrix_MatrixEigenClassicalJacobi(A goNum.Matrix) bool {
 	return true
 }
 
-//取最大非对角元素
+// 取最大非对角元素
 func maxElementElse_MatrixEigenClassicalJacobi(A goNum.Matrix) (int, int) {
 	var p, q int
 	var max float64
@@ -70,7 +70,7 @@ func maxElementElse_MatrixEigenClassicalJacobi(A goNum.Matrix) (int, int) {
 	return p, q
 }
 
-//计算cos(theta)及sin(theta)
+// 计算cos(theta)及sin(theta)
 func cosSinTheta_MatrixEigenClassicalJacobi(A goNum.Matrix, p, q int) (float64, float64) {
 	apq := A.GetFromMatrix(p, q)
 	app := A.GetFromMatrix(p, p)
@@ -117,7 +117,7 @@ func cosSinTheta_MatrixEigenClassicalJacobi(A goNum.Matrix, p, q int) (float64, 
 	return 0.0, 0.0
 }
 
-//非主对角元素平方之和
+// 非主对角元素平方之和
 func sum2Else_MatrixEigenClassicalJacobi(A goNum.Matrix) float64 {
 	var sum2 float64
 	for i := 0; i < A.Rows-1; i++ {

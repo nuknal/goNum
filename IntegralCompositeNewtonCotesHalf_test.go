@@ -53,7 +53,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // IntegralCompositeNewtonCotesHalf 1-8级逐次分半复化Newton-Cotes求积分公式

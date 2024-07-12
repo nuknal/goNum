@@ -25,7 +25,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // DetA 求矩阵行列式值的列主元消去法

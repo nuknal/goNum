@@ -24,7 +24,7 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // LU_Doolittle 求矩阵Doolittlede LU分解

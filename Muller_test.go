@@ -30,7 +30,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // Muller Muller法求解非线性方程f(x)=0的解

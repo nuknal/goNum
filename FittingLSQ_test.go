@@ -36,7 +36,7 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // FittingLSQ 线性最小二乘拟合

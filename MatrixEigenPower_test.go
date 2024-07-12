@@ -29,7 +29,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // MatrixEigenPower 求解n阶矩阵A的主特征值（按模最大）及其特征向量

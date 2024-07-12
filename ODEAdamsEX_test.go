@@ -33,7 +33,7 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // ODEAdamsEX 四步Adams外推公式，显式、线性，单个方程

@@ -30,7 +30,7 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // RK44 四级四阶Runge-Kutta法求解常微分方程组

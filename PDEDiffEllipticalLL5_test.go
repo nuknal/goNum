@@ -44,7 +44,7 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // PDEDiffEllipticalLL5 求解椭圆型偏微分方程（Laplace）的差分解法（五点格式）

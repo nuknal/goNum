@@ -24,7 +24,7 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // InverseA 求矩阵逆的列主元消去法

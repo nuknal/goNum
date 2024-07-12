@@ -41,10 +41,10 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
-//BernsteinPoly Bernstein Polynomial
+// BernsteinPoly Bernstein Polynomial
 func BernsteinPoly(i, N int) goNum.Matrix {
 	cni := goNum.Cnm(N, i)
 	sol := goNum.ZeroMatrix(N+1, 1)

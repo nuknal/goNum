@@ -48,7 +48,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // IntegralNewtonCotes 1-8级Newton-Cotes求积分公式

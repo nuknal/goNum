@@ -29,7 +29,7 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // LEs_ECPE 线性代数方程组的列主元消去法

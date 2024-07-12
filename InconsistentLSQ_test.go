@@ -35,7 +35,7 @@ package goNum_test
 import (
 	"testing"
 
-	"github.com/chfenger/goNum"
+	"github.com/nuknal/goNum"
 )
 
 // InconsistentLSQ 求解矛盾方程组的最小二乘法（Least Square Method）
